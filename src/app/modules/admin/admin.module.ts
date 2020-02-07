@@ -7,28 +7,25 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from '../material/material.module';
 import { NavComponent } from './components/nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { ProductListComponent } from './components/product-list/product-list.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { MatGridListModule } from '@angular/material/grid-list';
-import { MatCardModule } from '@angular/material/card';
-import { MatMenuModule } from '@angular/material/menu';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
+import { InventoryComponent } from './components/inventory/inventory.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 
 @NgModule({
-  declarations: [ProductFormComponent, NavComponent, ProductListComponent, DashboardComponent],
+  declarations: [
+    ProductFormComponent,
+    NavComponent,
+    DashboardComponent,
+    InventoryComponent,
+    ProductListComponent,
+  ],
   imports: [
     CommonModule,
     AdminRoutingModule,
     ReactiveFormsModule,
     MaterialModule,
-    LayoutModule,
-    MatGridListModule,
-    MatCardModule,
-    MatMenuModule,
-    MatIconModule,
-    MatButtonModule
+    LayoutModule
   ]
 })
 export class AdminModule { }
