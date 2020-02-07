@@ -71,7 +71,7 @@ export class ProductFormComponent {
     };
     this.productsService.createProduct(newProduct)
     .subscribe( product => {
-      console.log(product)
+      console.log(product);
       console.log('Añadido');
     });
   }

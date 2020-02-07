@@ -1,1 +1,74 @@
-<p>contact works!</p>
+<div class="container">
+    <div class="row between-xs mt">
+        <div class="col-md-6">
+            <mat-card class="example-card">
+                <img mat-card-image src="../../../../../assets/images/logo.jpg" alt="Martin Store Logo">
+                <mat-card-content>
+                  <p class="text-presentation">
+                    Martin Store, Inc. is an Argentine company 
+                    incorporated in the United States that operates online marketplaces 
+                    dedicated to e-commerce and online auctions.
+                    As of 2016, Martin Store had 174.2 million users in Latin America, 
+                    making it the region's most popular e-commerce site by number of visitors. 
+                    The company has operations in Argentina, Bolivia, Brazil, Chile, Colombia, 
+                    Costa Rica, Dominican Republic, Mexico, Ecuador, Guatemala, Honduras, Peru, 
+                    Panama, Uruguay and Venezuela.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    Copyright © Martin Store 2020
+                </mat-card-actions>
+              </mat-card>
+        </div>
+        <div class="col-md-6">
+            <form action="">
+                <mat-card>
+                    <mat-card-header>
+                      <mat-card-title>GET IN TOUCH!</mat-card-title>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <mat-form-field class="full-width prueba">
+                                    <input matInput placeholder="Full Name" formControlName="fullName">
+                                </mat-form-field>
+                            </div>
+                            <div class="col-xs-12">
+                                <mat-form-field class="full-width prueba">
+                                    <input matInput placeholder="Email" formControlName="email" type="email">
+                                </mat-form-field>
+                            </div>
+                            <div class="col-xs-12">
+                                <mat-form-field class="full-width prueba">
+                                    <input matInput placeholder="Subject" formControlName="subject">
+                                </mat-form-field>
+                            </div>
+                            <div class="col-xs-12">
+                                <mat-form-field class="full-width prueba">
+                                    <textarea matInput name="message" 
+                                    id="message" cols="10" rows="5" placeholder="Message">
+                                    </textarea>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                    </mat-card-content>
+                    <mat-card-actions class="button-send">
+                        <button mat-raised-button class="prueba" color="primary" type="submit">Send</button>
+                    </mat-card-actions>
+                </mat-card>
+            </form>
+            <mat-list class="mt" role="list">
+                <h1>Follow Us!</h1>
+                <mat-list-item role="listitem">
+                    <button mat-raised-button class="instagram-button button-width">Instagram</button>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <button mat-raised-button class="facebook-button button-width">Facebook</button>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <button mat-raised-button class="twitter-button button-width">Twitter</button>
+                </mat-list-item>
+            </mat-list>
+        </div>
+    </div>
+</div>
