@@ -24,6 +24,7 @@ export class ProductEditComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log('3');
     this.activeRoute.params.subscribe((params: Params) => {
       this.id = params.id;
       this.productService.getProduct(this.id)

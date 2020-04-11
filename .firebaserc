@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "martin-store-b12a4": {
+      "hosting": {
+        "martin-store": [
+          "martin-store-b12a4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-pwa-martinstore"
+  }
+}

@@ -24,7 +24,7 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
-  sendMail() {
+  sendEmail() {
     if (this.emailField.valid) {
       console.log(this.emailField.value);
     }
